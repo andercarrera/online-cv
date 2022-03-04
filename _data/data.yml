@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -33,13 +33,13 @@ sidebar:
         level: Native
 
       - idiom: English
-        level: Professional (C1)
+        level: Professional C1
 
       - idiom: Basque
-        level: Professional (C1)
+        level: Professional C1
 
     interests:
-      - item: DJ
+      - item: DJ & Playing the piano
         link: https://hd.click/race
 
       - item: Bodybuilding
@@ -48,13 +48,13 @@ sidebar:
       - item: Crypto & Blockchain
         link:
         
-      - item: Flight & Space simulations
+      - item: Flight & Space simulators
         link:
 
 career-profile:
     title: My Profile
     summary: |
-      Computer Science Engineer | Master's degree in Cybersecurity, Data Analytics and Cloud Computing.
+      Computer Science Engineer &amp; Master's degree in Cybersecurity, Data Analytics and Cloud Computing.
 education:
     - degree: MSc in Cybersecurity, Data Analytics and Cloud Computing
       university: University of Mondragon
@@ -101,11 +101,11 @@ experiences:
       time: 06/2019 - 09/2019
       company: Self Employed
       details: |
-        Skills
+        Skills:
           - Wordpress
 projects:
     title: Projects
-    intro: >
+    #intro: >
       #You can list your side projects or open source libraries in this
       #section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       #Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
@@ -146,7 +146,7 @@ skills:
       - name: Clojure & Clojurescript
         level: 98%
 
-      - name: AWS
+      - name: AWS &amp; CI/CD
         level: 98%
 
       - name: Docker
